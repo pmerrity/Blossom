@@ -1,3 +1,9 @@
+@mixin borderbox {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 @mixin transition($what, $duration, $delay) {
 	-webkit-transition: $what $duration ease-in-out $delay;
 	-o-transition: $what $duration ease-in-out $delay;

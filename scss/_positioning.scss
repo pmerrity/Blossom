@@ -108,9 +108,7 @@
 .pad-vert-xs, .pad-vert-sm, .pad-vert-md, .pad-vert-lg, .pad-vert-xl,
 .pad-horiz-xs, .pad-horiz-sm, .pad-horiz-md, .pad-horiz-lg,
 .pad-horiz-xl, .pad-top-lg, .pad-bottom-md {
-    -webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-    box-sizing: border-box;
+    @include borderbox;
 }
 
 .no-pad {
