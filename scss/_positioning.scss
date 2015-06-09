@@ -63,11 +63,11 @@
 }
 
 .no-float {
-	float: none;
+	float: none !important;
 }
 
 .pull-left {
-	float: left;
+	float: left !important;
 }
 
 .pull-right {
@@ -109,6 +109,7 @@
 .pad-horiz-xs, .pad-horiz-sm, .pad-horiz-md, .pad-horiz-lg,
 .pad-horiz-xl, .pad-top-lg, .pad-bottom-md {
     -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 

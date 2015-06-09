@@ -3,15 +3,15 @@
 /* 1.0 Reset         */
 /* 2.0 Color         */
 /* 3.0 Typography    */
-/* 4.0 Menus         */
+/* 4.0 Navigation    */
 /* 5.0 Elements      */
 /* 6.0 Positioning   */
 /* 7.0 Grid          */
 /* 8.0 Extra         */
-/* 9.0 Portfolio     */
 /*********************/
 
 @import 'mixin';
+//All SASS/SCSS Mixins go Here
 
 /******************************************
 1.0 Reset
@@ -19,11 +19,15 @@
 
 @import 'reset';
 
+//clears default browser formatting and makes certain html elements backward-compaitible
+
 /******************************************
 2.0 Color
 ******************************************/
 
 @import 'colors';
+
+//Common color variables and background classes
 
 /******************************************
 3.0 Typography
@@ -31,11 +35,15 @@
 
 @import 'typography';
 
+//fonts, text color classes, text maniplation classes
+
 /******************************************
 4.0 Menus
 ******************************************/
 
 @import 'navigation';
+
+//navbars, lists, footer areas
 
 /******************************************
 5.0 Elements
@@ -43,11 +51,15 @@
 
 @import 'elements';
 
+//html elements like forms, buttons, input fields, popups, and custom class elements
+
 /******************************************
 6.0 Positioning
 ******************************************/
 
 @import 'positioning';
+
+//position manipulation such as padding, margin, offset, etc
 
 /******************************************
 7.0 Grid
@@ -55,17 +67,12 @@
 
 @import 'grid';
 
+//based off of Flex pmerrity.github.io/Flex
+
 /******************************************
 8.0 Extra
 ******************************************/
 
 @import 'extra';
 
-/******************************************
-9.0 Portfolio
-******************************************/
-
-@import 'portfolio';
-
-
-@import 'polymer';
+//add your own such as page specific modules
